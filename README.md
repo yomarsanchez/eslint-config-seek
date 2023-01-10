@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://codely.com">
-    <img src="https://user-images.githubusercontent.com/10558907/170513882-a09eee57-7765-4ca4-b2dd-3c2e061fdad0.png" width="300px" height="92px"/>
+  <a href="https://seek.pe/">
+    <img src="https://seek.pe/seek_logo_firma-2021.png" width="224px"/>
   </a>
 </p>
 
@@ -50,7 +50,7 @@
   - [`import`](https://github.com/import-js/eslint-plugin-import/): helps validate proper imports
   - [`simple-import-sort`](https://github.com/lydell/eslint-plugin-simple-import-sort/): sorts imports
   - [`unused-imports`](https://github.com/sweepline/eslint-plugin-unused-imports): finds and removes unused ES6 module imports
-- Uses the following [JavaScript rules](https://github.com/CodelyTV/eslint-config-codely/blob/main/.eslintrc.js#L13) and [TypeScript rules](https://github.com/CodelyTV/eslint-config-codely/blob/main/typescript.js#L17)
+- Uses the following [JavaScript rules](https://github.com/yomarsanchez/eslint-config-seek/blob/main/.eslintrc.js#L13) and [TypeScript rules](https://github.com/yomarsanchez/eslint-config-seek/blob/main/typescript.js#L17)
 
 ## Seek Code Quality Standards
 
