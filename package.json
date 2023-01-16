@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-seek",
+  "name": "@seek/eslint-config-seek",
   "version": "1.0.0",
   "description": "Seek's ESLint and Prettier Config",
   "main": "index.js",
