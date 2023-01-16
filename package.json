@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seek",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Seek's ESLint and Prettier Config",
   "main": "index.js",
   "scripts": {
