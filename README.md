@@ -17,18 +17,18 @@
 
 1. Install the dependency
    ```bash
-   npm install --save-dev eslint-config-seek
+   npm install --save-dev @yomarsanchez/eslint-config-seek
    ```
 2. Add it to your `.eslintrc.js` file:
    ```js
    {
-     extends: [ "eslint-config-seek" ]
+     extends: [ "@yomarsanchez/eslint-config-seek" ]
    }
    ```
 3. If you are using TypeScript, extend the TypeScript configuration instead, and point to your `tsconfig.json` in `parserOptions`:
    ```js
    {
-     extends: [ "eslint-config-seek/typescript" ],
+     extends: [ "@yomarsanchez/eslint-config-seek/typescript" ],
      overrides: [
        {
          files: ["*.ts", "*.tsx"],
