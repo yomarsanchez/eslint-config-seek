@@ -2,7 +2,7 @@ module.exports = {
   // Include parentheses around a sole arrow function parameter.
   arrowParens: 'avoid',
   // Print spaces between brackets in object literals.
-  // bracketSpacing: false,
+  bracketSpacing: true,
   // Put the > of a multi-line JSX element at the end of the last line instead of being alone on the next line
   bracketSameLine: false,
   // Maintain existing line endings
@@ -20,7 +20,7 @@ module.exports = {
   // Specify the number of spaces per indentation-level.
   tabWidth: 2,
   // Print trailing commas wherever possible when multi-line. 
-  trailingComma: 'es5',
+  trailingComma: 'none',
   // Indent lines with tabs instead of spaces.
   useTabs: false
 }

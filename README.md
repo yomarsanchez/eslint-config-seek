@@ -4,28 +4,28 @@
   </a>
 </p>
 
-<h1 align="center">
-  Seek's ESLint + Prettier configuration
-</h1>
+# Seek's ESLint + Prettier configuration
 
-<p align="center">
-  Opinionated linting configuration considering modern TypeScript best practices and providing consistency to your <code>import</code> statements. Valid for your JavaScript or TypeScript projects 🤟
-  <br />
-</p>
+  Opinionated linting configuration considering modern TypeScript best practices and providing consistency to your `import` statements. Valid for your JavaScript or TypeScript projects
 
 ## How to use
 
 1. Install the dependency
+
    ```bash
    npm install --save-dev @yomarsanchez/eslint-config-seek
    ```
+
 2. Add it to your `.eslintrc.js` file:
+
    ```js
    {
      extends: [ "@yomarsanchez/eslint-config-seek" ]
    }
    ```
+
 3. If you are using TypeScript, extend the TypeScript configuration instead, and point to your `tsconfig.json` in `parserOptions`:
+
    ```js
    {
      extends: [ "@yomarsanchez/eslint-config-seek/typescript" ],

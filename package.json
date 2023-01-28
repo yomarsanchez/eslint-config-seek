@@ -1,6 +1,6 @@
 {
   "name": "@yomarsanchez/eslint-config-seek",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Seek's ESLint and Prettier Config",
   "main": "index.js",
   "scripts": {
@@ -11,20 +11,21 @@
     "@babel/core": "7.20.12",
     "@babel/eslint-parser": "7.19.1",
     "@types/node": "18.11.18",
-    "@typescript-eslint/eslint-plugin": "5.48.1",
-    "@typescript-eslint/parser": "5.48.1",
-    "eslint": "8.31.0",
+    "@typescript-eslint/eslint-plugin": "5.49.0",
+    "@typescript-eslint/parser": "5.49.0",
+    "eslint": "8.32.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-config-standard": "17.0.0",
-    "eslint-config-standard-with-typescript": "26.0.0",
-    "eslint-plugin-import": "2.26.0",
+    "eslint-config-standard-with-typescript": "33.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-n": "15.6.1",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-react": "7.31.11",
+    "eslint-plugin-react": "7.32.1",
     "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-simple-import-sort": "8.0.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
     "eslint-plugin-unused-imports": "2.0.0",
-    "prettier": "2.8.2",
+    "prettier": "2.8.3",
     "typescript": "4.9.4"
   },
   "repository": {
@@ -32,14 +33,16 @@
     "url": "git+https://github.com/yomarsanchez/eslint-config-seek.git"
   },
   "keywords": [
+    "seek",
+    "seek.pe",
+    "seekperu",
     "javascript",
     "typescript",
     "eslint",
     "eslintconfig",
     "lint",
     "config",
-    "prettier",
-    "seek"
+    "prettier"
   ],
   "author": "Seek (www.seek.pe)",
   "license": "SEE LICENSE IN LICENSE",
