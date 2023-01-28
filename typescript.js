@@ -17,7 +17,6 @@ module.exports = {
         'plugin:import/typescript',
         'standard-with-typescript'
       ],
-      plugins: ['@typescript-eslint'],
       rules: {
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
         '@typescript-eslint/no-confusing-void-expression': [
