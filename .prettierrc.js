@@ -9,8 +9,6 @@ module.exports = {
   endOfLine: 'auto',
   // Use single quotes instead of double quotes in JSX.
   jsxSingleQuote: true,
-  // Support optional chaining new ES feature -> ?
-  optionalChaining: true,
   // Specify the line length that the printer will wrap on.
   printWidth: 100,
   // Print semicolons at the ends of statements.
