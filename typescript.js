@@ -23,14 +23,20 @@ module.exports = {
           'error',
           { ignoreArrowShorthand: true }
         ],
+        '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
         '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/no-require-imports': 'error',
         '@typescript-eslint/no-unnecessary-condition': 'error',
+        '@typescript-eslint/no-unsafe-assignment': 'off',
+        '@typescript-eslint/no-unsafe-call': 'off',
+        '@typescript-eslint/no-unsafe-member-access': 'off',
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/promise-function-async': ['error', { checkArrowFunctions: false }],
         '@typescript-eslint/space-before-function-paren': 'off',
+        '@typescript-eslint/strict-boolean-expressions': 'off',
         '@typescript-eslint/switch-exhaustiveness-check': 'error'
       }
     },
