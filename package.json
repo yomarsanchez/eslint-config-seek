@@ -1,6 +1,6 @@
 {
   "name": "@yomarsanchez/eslint-config-seek",
-  "version": "1.2.3",
+  "version": "1.2.4-beta",
   "description": "Seek's ESLint and Prettier Config",
   "main": "index.js",
   "scripts": {
@@ -49,5 +49,8 @@
   "bugs": {
     "url": "https://github.com/yomarsanchez/eslint-config-seek/issues"
   },
-  "homepage": "https://github.com/yomarsanchez/eslint-config-seek#readme"
+  "homepage": "https://github.com/yomarsanchez/eslint-config-seek#readme",
+  "publishConfig": {
+    "@yomarsanchez:registry": "https://npm.pkg.github.com"
+  }
 }
